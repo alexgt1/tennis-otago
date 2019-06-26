@@ -7,23 +7,44 @@ p{
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
+  color: #fff;
+}
+
+h2{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 h3{
   font-family: brandon-grotesque, sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #fff;
 }
 
 .spacer{
   width: 100%;
   height: 500px;
+  background-color: #F6F6F7;
 }
 
-.grey-space{
-  background-color: #F6F6F7;
-  height: 200px;
-  width: 100%;
+.sponsors{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: auto;
+
+}
+
+.sponsors h3{
+  color: #000;
+  padding-bottom: 80px;
+}
+
+
+.slider img{
+  height: 70px!important;
+  width: auto!important;
 }
 
 a{
@@ -69,8 +90,6 @@ a{
   background-color: inherit!important;
   padding: 10px;
 }
-
-
 
 .bottom-nav{
   background-color: #13315C;
@@ -118,7 +137,7 @@ a{
 	cursor:pointer;
 	background:#ffffff;
 	color:#18448E;
-	
+
 }
 .icon.social:hover {
 	background:#F8EB18;
@@ -150,6 +169,7 @@ a{
 .footer{
   background-color: #18448E;
   color: #fff;
+  margin-top: 0px;
 
 }
 
