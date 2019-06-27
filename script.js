@@ -5,7 +5,7 @@ $('.variable-width').slick({
   speed: 300,
   slidesToShow: 1,
   centerMode: true,
-  centerPadding: '100px',
+  centerPadding: '60px',
   variableWidth: true,
   autoplay: true,
   autoplaySpeed: 2000,

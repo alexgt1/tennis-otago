@@ -49,19 +49,9 @@
               About
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              
-              <a class="dropdown-item" href="/calendar"> Calendar</a>
-              
-              <a class="dropdown-item" href="/club-card"> Tennis Otago Club Card</a>
-              
-              <a class="dropdown-item" href="/clubs-and-associates"> Clubs & Associates</a>
-              
-              <a class="dropdown-item" href="/organisation"> Organisation Strategy and Documents</a>
-              
-              <a class="dropdown-item" href="/general-information"> Board, Staff & Contact</a>
-              
-              <a class="dropdown-item" href="/structure-of-tennis-otago"> Structure of Tennis Otago</a>
-              
+              {% for page in site.about %}
+              <a class="dropdown-item" href="{{ page.url }}"> {{ page.page_title }}</a>
+              {% endfor %}
 
             </div>
           </li>
@@ -90,46 +80,7 @@
 
 
 
-<section>
-  <div class="container">
-    <div class="row article-section">
-      <div class="col-md-8 main-img">
-        </div>
-
-      <div class="col-md-4">
-        <div class="row secondary">
-          <img src="" alt="">
-        </div>
-        <div class="row secondary">
-          <img src="" alt="">
-        </div>
-        <div class="row secondary">
-          <img src="" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End of Nav -->
-<div class="spacer">
-
-</div>
-<section>
-  <div class="container">
-<div class="sponsors text-center">
-  <h3>Our Team of Sponsors</h3>
-
-<div class="variable-width slider">
-  <div class="slider-item"><a class="hvr-grow" target="_blank" href="https://www.tecnifibre.com/"><img src="img/tecnifibre.png" alt="Tennis Sponsors"></a></div>
-  <div class="slider-item"><a class="hvr-grow" target="_blank" href="https://www.bnol.co.nz/"><img src="img/bnol.png" alt="Tennis Sponsors"></a></div>
-  <div class="slider-item"><a class="hvr-grow" target="_blank" href="https://www.tecnifibre.com/"><img src="img/visique.png" alt="Tennis Sponsors"></a></div>
-  <div class="slider-item"><a class="hvr-grow" target="_blank" href="https://peterdick.co.nz/"><img src="img/hot.png" alt="Tennis Sponsors"></a></div>
-  <div class="slider-item"><a class="hvr-grow" target="_blank" href="https://mcarthursymons.co.nz/"><img src="img/mas.png" alt="Tennis Sponsors"></a></div>
-</div>
-</div>
-</div>
-</section>
-
+{{ content }}
 
 
 

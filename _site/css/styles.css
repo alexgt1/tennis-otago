@@ -141,6 +141,19 @@ a{
 
 }
 
+.show{
+  color: pink!important;
+}
+
+.dropdown-menu{
+  background-color: #13315C;
+  border-radius: 0px;
+}
+
+.dropdown-item{
+  color: #ffffff;
+}
+
 .article-section{
   padding-top: 30px;
   padding-bottom: 30px;
