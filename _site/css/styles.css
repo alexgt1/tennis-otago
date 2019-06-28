@@ -104,12 +104,33 @@ a{
 }
 
 .main-content{
-  height: 500px;
+  height: auto;
   background-color: #ffffff;
 }
 
 .main-content h3{
   color: #000;
+}
+
+.main-content img{
+  width: 80%;
+  height: auto;
+  margin: 30px 0px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.main-content a{
+  text-transform: capitalize;
+  color: #000;
+}
+
+.main-content a:hover{
+  text-decoration: none;
+  color: #17448E;
+}
+
+.main-content hr{
+  margin: 60px 0px;
 }
 
 .hero-img {

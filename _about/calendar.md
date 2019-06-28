@@ -1,7 +1,7 @@
 ---
 layout: page
 page_title: Calendar
-page_description: Upcomning events at Tennis Otago
+page_description: Upcoming events at Tennis Otago
 page_image: img/ball.jpg
 
 permalink: calendar
