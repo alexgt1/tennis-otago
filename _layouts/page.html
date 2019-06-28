@@ -1,7 +1,30 @@
 ---
 layout: default
 ---
-
-<div class="spacer">
+<section>
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container jumbotron-text">
+    <div class="jumbotron-text">
+      <h1 class="display-4">{{page.page_title}}</h1>
+      <p class="lead">{{page.page_description}}</p>
+    </div>
+  </div>
 
 </div>
+<div class="container">
+  <div class="row page-content">
+    <div class="col-md-8 main-content">
+        {{ content }}
+      </div>
+    <div class="col-md-4">
+      <ul class="list-group">
+  <li class="list-group-item active">Recent News</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+    </div>
+    </div>
+  </div>
+</section>
