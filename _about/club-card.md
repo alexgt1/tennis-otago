@@ -24,16 +24,18 @@ Action Cards (10, 20 & 30 session cards) – discounts of up to 35%
 10 session card 15% discount
 
 
-## Gilmour Automotive
+## [Gilmour Automotive](https://www.gilmourautomotive.co.nz/)
 
 Your Electric Vehicle specialists. $250 in Otago Sports Depot vouchers with any car purchase. A donation will also be made to Tennis Otago. Tennis Otago Club Card must be presented from outset.
 
 
 
-## Otago Sports Depot
+## [Otago Sports Depot](https://otagosportsdepot.co.nz/)
 
 15% discount off RRP storewide
-Jetts Gym
+
+## [Jetts Gym](http://www.jetts.co.nz/)
+
 
 Special Start Up Fee Only $29.00 (Normally $45.00)
 
@@ -49,12 +51,12 @@ Corporate Offer Expires: 15 October 2019
 (1-31 Jan 2019 only): receive 1 x Jetts water bottle FREE
 
 
-## Grid Coffee Roasters
+## [Grid Coffee Roasters](https://gridcoffee.co.nz/)
 
 $1 off any coffee and 10% off everything in tea and coffee retail store
 
 
-## Southern Honda
+## [Southern Honda](https://www.honda.co.nz/find-a-dealer/lower-south-island/southern-honda/)
 
 Special member benefits when you purchase a new/used vehicle
 

@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
     <meta charset="utf-8">
     <title>Tennis Otago</title>
     <link rel="shortcut icon" href="favicon.ico">
 
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/all2iiw.css">
     <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
-
     <!-- Slick StyleSheet -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -24,8 +25,6 @@
         background-image: linear-gradient(rgba(23,68,142,0.4), rgba(23,68,142,0.4)), url();
         position: cover;
       }
-
-
     </style>
 
   </head>
@@ -33,26 +32,29 @@
 
   <nav class="navbar navbar-expand-lg navbar-light top-nav">
     <div class="container">
-  <a class="navbar-brand" href="index"><img src="img/logo.png" alt="Tennis Otago"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <a class="navbar-brand" href="http://localhost:4000"><img src="img/logo.png" alt="Tennis Otago"></a>
+  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNav">
+    <span> </span>
+    <span> </span>
+    <span> </span>
   </button>
   <span class="navbar-text d-none d-lg-block d-xl-block">
     <div class='icon social fb'><i class='fa fa-facebook'></i></div>
     <div class='icon social tw'><i class="fa fa-envelope"></i></div>
     <div class='icon social in'><i class="fa fa-instagram"></i></div>
+    <a class="button-secondary text-center pull-right" href="#" role="button">Newsletter</a>
     </span>
   </div>
 </nav>
 <nav class="navbar navbar-expand-lg navbar-light bottom-nav">
 <div class="container">
-<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+<div class="collapse navbar-collapse" id="navbarNav">
   <ul class="navbar-nav mr-auto">
     <li class="nav-item active">
-      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="http://localhost:4000">Home <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item active dropdown">
-            <a href="#"  class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a href="#" class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -72,11 +74,35 @@
 
             </div>
           </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Facilities</a>
+    <li class="nav-item active dropdown">
+      <a href="#"  class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Facilities
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        
+        <a class="dropdown-item" href="/courts-and-bookings"> Courts & Bookings</a>
+        
+        <a class="dropdown-item" href="/functions"> Functions</a>
+        
+        <a class="dropdown-item" href="/redevelopment"> Redevelopment</a>
+        
+
+      </div>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Competitions</a>
+    <li class="nav-item active dropdown">
+      <a href="#"  class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Competitions
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        
+        <a class="dropdown-item" href="/competition-info"> Competition Info & Events</a>
+        
+        <a class="dropdown-item" href="/draws"> Draws</a>
+        
+        <a class="dropdown-item" href="/functions"> Results</a>
+        
+
+      </div>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#">Player Development</a>
@@ -85,7 +111,7 @@
       <a class="nav-link" href="#">Sponsorship</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Otago Seniors</a>
+      <a class="nav-link" href="http://localhost:4000/contact">Contact</a>
     </li>
   </ul>
 
@@ -184,6 +210,7 @@
     </div>
 </div>
 </section>
+
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

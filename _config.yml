@@ -1,3 +1,7 @@
 collections:
   about:
     output: true
+  facilities:
+    output: true
+  competitions:
+    output: true
