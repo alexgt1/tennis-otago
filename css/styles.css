@@ -459,6 +459,11 @@ a {
   color: #f1f1f1;
   text-decoration: none; }
 
+.services {
+  min-height: 400px;
+  width: 100%;
+  background-color: #F6F6F7; }
+
 @media only screen and (max-width: 768px) {
   .navbar-brand img {
     height: 50px;
