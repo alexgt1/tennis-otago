@@ -74,7 +74,11 @@ h1.heading {
   font-size: 1.65em; }
 
 .card-title a {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
+  text-decoration: none !important; }
+
+.card-title a:hover {
+  color: #FFFFFF;
   text-decoration: none !important; }
 
 .card-read-more {
@@ -187,7 +191,8 @@ a {
 .index-main-content {
   height: auto;
   padding-right: 40px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  padding-top: 0px; }
 
 .index-main-content h3 {
   color: #000; }
@@ -340,6 +345,9 @@ a {
 .article-section {
   padding-top: 30px;
   padding-bottom: 30px; }
+
+.secondary-articles {
+  padding-top: 40px; }
 
 .main-img {
   height: 500px;
