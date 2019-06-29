@@ -460,6 +460,10 @@ a {
   text-decoration: none; }
 
 @media only screen and (max-width: 768px) {
+  .navbar-brand img {
+    height: 50px;
+    width: auto; }
+
   .dropdown-menu {
     border: none; }
 
