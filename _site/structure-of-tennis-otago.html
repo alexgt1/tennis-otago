@@ -30,6 +30,42 @@
         position: cover;
       }
 
+      .carousel-caption {
+  background-color: rgba(0,0,0,.8);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 10px 0px 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-item{
+  overflow:hidden;
+  position:relative;
+  height: 400px;
+  width: 820px;
+}
+
+.carousel-item img{
+  position:absolute;
+  width: 100%;
+}
+
       #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
       /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
@@ -41,7 +77,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light top-nav">
     <div class="container">
-  <a class="navbar-brand" href="https://alexgt1.github.io/tennis-otago/"><img src="img/logo.png" alt="Tennis Otago"></a>
+  <a class="navbar-brand" href="http://localhost:4000"><img src="img/logo.png" alt="Tennis Otago"></a>
   <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNav">
     <span> </span>
     <span> </span>
@@ -60,7 +96,7 @@
 <div class="collapse navbar-collapse" id="navbarNav">
   <ul class="navbar-nav mr-auto">
     <li class="nav-item active">
-      <a class="nav-link" href="https://alexgt1.github.io/tennis-otago/">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="http://localhost:4000">Home <span class="sr-only">(current)</span></a>
     </li>
     <li class="nav-item active dropdown">
             <a href="#" class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -68,17 +104,17 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               
-              <a class="dropdown-item" href="https://alexgt1.github.io/tennis-otago//calendar"> Calendar</a>
+              <a class="dropdown-item" href="http://localhost:4000/calendar"> Calendar</a>
               
-              <a class="dropdown-item" href="https://alexgt1.github.io/tennis-otago//club-card"> Tennis Otago Club Card</a>
+              <a class="dropdown-item" href="http://localhost:4000/club-card"> Tennis Otago Club Card</a>
               
-              <a class="dropdown-item" href="https://alexgt1.github.io/tennis-otago//clubs-and-associates"> Clubs & Associates</a>
+              <a class="dropdown-item" href="http://localhost:4000/clubs-and-associates"> Clubs & Associates</a>
               
-              <a class="dropdown-item" href="https://alexgt1.github.io/tennis-otago//organisation"> Documents</a>
+              <a class="dropdown-item" href="http://localhost:4000/organisation"> Documents</a>
               
-              <a class="dropdown-item" href="https://alexgt1.github.io/tennis-otago//general-information"> Board, Staff & Contact</a>
+              <a class="dropdown-item" href="http://localhost:4000/general-information"> Board, Staff & Contact</a>
               
-              <a class="dropdown-item" href="https://alexgt1.github.io/tennis-otago//structure-of-tennis-otago"> Structure of Tennis Otago</a>
+              <a class="dropdown-item" href="http://localhost:4000/structure-of-tennis-otago"> Structure of Tennis Otago</a>
               
 
             </div>
@@ -89,17 +125,17 @@
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         
-        <a class="dropdown-item" href="https://alexgt1.github.io/tennis-otago//courts-and-bookings"> Courts & Bookings</a>
+        <a class="dropdown-item" href="http://localhost:4000/courts-and-bookings"> Courts & Bookings</a>
         
-        <a class="dropdown-item" href="https://alexgt1.github.io/tennis-otago//functions"> Functions</a>
+        <a class="dropdown-item" href="http://localhost:4000/functions"> Functions</a>
         
-        <a class="dropdown-item" href="https://alexgt1.github.io/tennis-otago//redevelopment"> Redevelopment</a>
+        <a class="dropdown-item" href="http://localhost:4000/redevelopment"> Redevelopment</a>
         
 
       </div>
     </li>
     <li class="nav-item active dropdown">
-      <a href="https://alexgt1.github.io/tennis-otago/competitions" class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <a href="http://localhost:4000competitions" class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Competitions
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -114,13 +150,13 @@
       </div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://alexgt1.github.io/tennis-otago/player-development">Player Development</a>
+      <a class="nav-link" href="http://localhost:4000player-development">Player Development</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://alexgt1.github.io/tennis-otago/sponsorship">Sponsorship</a>
+      <a class="nav-link" href="http://localhost:4000sponsorship">Sponsorship</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="https://alexgt1.github.io/tennis-otago/contact">Contact</a>
+      <a class="nav-link" href="http://localhost:4000contact">Contact</a>
     </li>
   </ul>
 
