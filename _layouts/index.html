@@ -9,13 +9,27 @@ layout: default
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
 <div class="carousel-inner">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:1 %}
   <div class="carousel-item active">
+    <a href="{{ site.url }}{{ post.url }}">
     <img src="{{ post.page_image }}" alt="...">
     <div class="carousel-caption">
       <h2>{{ post.page_title }}</h2>
       <p>{{ post.page_description }}</p>
     </div>
+  </a>
+  </div>
+  {% endfor %}
+
+  {% for post in site.posts offset:1 limit:2 %}
+  <div class="carousel-item">
+    <a href="{{ site.url }}{{ post.url }}">
+    <img src="{{ post.page_image }}" alt="...">
+    <div class="carousel-caption">
+      <h2>{{ post.page_title }}</h2>
+      <p>{{ post.page_description }}</p>
+    </div>
+    </a>
   </div>
   {% endfor %}
 
@@ -50,6 +64,15 @@ layout: default
   <!-- Tab panes -->
   <div class="tab-content">
     <div id="home" class="container tab-pane active fade-in"><br>
+      {% for post in site.posts limit:5 %}
+      <div class="row club-links">
+        <div class="col-md-12 col-sm-12">
+          <a href="https://www.facebook.com/AndersonsBayTennis/?epa=SEARCH_BOX" target="_blank"><h5>{{ post.page_title }}</h5></a>
+          <p>{{ post.page_description | truncate: 50 }}</p>
+          <p class="date">{{ post.date | date_to_long_string }}</p>
+        </div>
+      </div>
+      {% endfor %}
       <div class="row club-links">
         <div class="col-md-12 col-sm-12">
           <a href="#">View More</a>

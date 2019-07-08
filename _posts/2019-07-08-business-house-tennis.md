@@ -1,11 +1,10 @@
 ---
 layout: page
 page_title: Business House Term 2
-page_description:  Entries are currently open for the second block of Tuesday Night Business House League
-page_image: img/ball.jpg
+page_description: Entries are currently open for the second block of Tuesday Night Business House League
+page_image: img/poster.jpg
 
-
-permalink: business-house-term-2
+permalink: article-two
 ---
 
 ## Tuesday Night Business House League is back!!!
