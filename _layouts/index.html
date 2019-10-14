@@ -178,7 +178,7 @@
       {% for post in site.posts limit:3 %}
       <div class="row club-links">
         <div class="col-md-12 col-sm-12">
-          <a href="https://www.facebook.com/AndersonsBayTennis/?epa=SEARCH_BOX" target="_blank"><h5>{{ post.page_title }}</h5></a>
+          <a href="{{ site.url }}{{ post.url }}"><h5>{{ post.page_title }}</h5></a>
           <p>{{ post.page_description | truncate: 50 }}</p>
           <p class="date">{{ post.date | date_to_long_string }}</p>
           <span class="border-middle"></span>
@@ -187,51 +187,26 @@
       {% endfor %}
       <div class="row club-links">
         <div class="col-md-12 col-sm-12">
-          <a href="#">View More</a>
+            <a href="{{ site.url }}/news">View More</a>
         </div>
       </div>
     </div>
     <div id="menu1" class="container tab-pane fade-in"><br>
       {% for post in site.posts limit:3 %}
       <div class="row club-links">
-        <div class="col-md-3 col-sm-12 news-thumbnail">
-          <a href="https://www.facebook.com/AndersonsBayTennis/?epa=SEARCH_BOX" target="_blank"><img src="img/andybay.png" alt=""></a>
-        </div>
-        <div class="col-md-9 col-sm-12">
-          <a href="https://www.facebook.com/AndersonsBayTennis/?epa=SEARCH_BOX" target="_blank"><h5>{{ post.page_title }}</h5></a>
+        <div class="col-md-12 col-sm-12">
+            <a href="{{ site.url }}{{ post.url }}"><h5>{{ post.page_title }}</h5></a>
           <p>{{ post.page_description | truncate: 50 }}</p>
+          <p class="date">{{ post.date | date_to_long_string }}</p>
+          <span class="border-middle"></span>
         </div>
       </div>
       {% endfor %}
-
       <div class="row club-links">
-        <div class="col-md-3 col-sm-12">
-          <a href="https://www.balmactennis.co.nz/" target="_blank"><img class="club-logo" src="img/balmacewen.png" alt=""></a>
-        </div>
-        <div class="col-md-9 col-sm-12">
-          <a href="https://www.balmactennis.co.nz/" target="_blank"><h5>Balmacewen Tennis Club</h5></a>
-          <p>125 Balmacewen Rd, Maori Hill</p>
-        </div>
-
-      </div>
-
-      <div class="row club-links">
-        <div class="col-md-3 col-sm-12">
-          <a href="https://www.cosydelltennis.co.nz/" target="_blank"><img class="club-logo" src="img/cosydell.png" alt=""></a>
-        </div>
-        <div class="col-md-9 col-sm-12">
-          <a href="https://www.cosydelltennis.co.nz/" target="_blank"><h5>Cosy Dell Tennis Club</h5></a>
-          <p>1 Kyle St, North Dunedin,</p>
+        <div class="col-md-12 col-sm-12">
+          <a href="{{ site.url }}/news">View More</a>
         </div>
       </div>
-      <div class="row club-links">
-        <div class="col-md-3 col-sm-12">
-          <a href="http://taieritennis.co.nz/" target="_blank"><img class="club-logo" src="img/taieri.png" alt=""></a>
-        </div>
-        <div class="col-md-9 col-sm-12">
-          <a href="http://taieritennis.co.nz/" target="_blank"><h5>Taieri Tennis Club</h5></a>
-          <p>10A Wickliffe St, Mosgiel</p>
-        </div>
       </div>
     </div>
 
@@ -239,7 +214,6 @@
 
   </div>
 
-    </div>
     </div>
 </section>
 
