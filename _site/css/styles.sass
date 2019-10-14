@@ -3,6 +3,7 @@ $secondary: #13315C
 
 @import card
 @import sidebar
+@import contact
 
 html,body
   width: 100%
@@ -31,14 +32,15 @@ h3
   font-style: normal
   color: #fff
 
-.carousel-caption 
-  background-color: rgba(0,0,0,.8)
+.carousel-caption   
+  background-color: rgba(20,49,92,.9)
   position: absolute
+  text-transform: capitalize
   left: 0
   right: 0
   bottom: 0
   z-index: 10
-  padding: 10px 0px 10px 25px
+  padding: 25px 0px 10px 25px
   color: #fff
   text-align: left
   p
@@ -71,7 +73,16 @@ h3
   position: absolute
   width: 100%
 
-
+.border-middle
+    width: 100%
+    height: 1px
+    background: #C0C0C0
+    margin-top: 20px
+    opacity: 0.5
+    margin: auto
+    display: block
+    border: none!important
+    color: #C0C0C0
 
 .sponsors
   padding-top: 80px
@@ -216,11 +227,14 @@ a
 
 
 .jumbotron
-  padding: 30px
+  padding: 70px
+  text-align: center
 
 
 .jumbotron h1
+  font-weight: 500
   color: #ffffff
+  font-size: 50px
 
 
 .jumbotron p
@@ -492,6 +506,11 @@ a
   min-height: 400px
   width: 100%
   background-color: #F6F6F7
+  margin: auto
+  padding: 40px 0px
+  img 
+    height: auto
+    width: 1000px
 
 
 .modal-header

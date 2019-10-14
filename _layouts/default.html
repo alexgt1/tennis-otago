@@ -4,7 +4,7 @@
     <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Tennis Otago</title>
+    <title>Tennis Otago | {{page.page_title}}</title>
     <link rel="shortcut icon" href="favicon.ico">
 
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
@@ -26,8 +26,16 @@
       }
 
       .jumbotron{
-        background-image: linear-gradient(rgba(23,68,142,0.4), rgba(23,68,142,0.4)), url({{ page.page_image }});
+        background-image: linear-gradient(rgba(23,68,142,0.4), rgba(23,68,142,0.4)), url('{{ page.page_image }}');
         position: cover;
+      }
+
+      .footer-jumbotron{
+        background-image: linear-gradient(rgba(23,68,142,0.5), rgba(23,68,142,0.5)), url('img/LoganPark.jpg');
+        background-size: auto 200%;
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        
       }
 
 
@@ -97,13 +105,13 @@
       </div>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{{ site.url }}player-development">Player Development</a>
+      <a class="nav-link" href="{{ site.url }}/join-a-club">Join A Club</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{{ site.url }}sponsorship">Sponsorship</a>
+      <a class="nav-link" href="{{ site.url }}/sponsorship">Sponsorship</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="{{ site.url }}contact">Contact</a>
+      <a class="nav-link" href="{{ site.url }}/contact">Contact</a>
     </li>
   </ul>
 
@@ -123,17 +131,18 @@
 <!-- Start of Footer -->
 
 <section class="newsletter">
-    <div class="container">
-      <div class="row">
-    <div class="col-md-8 col-sm-12">
-      <h3>Sign up for Newsletter</h3>
-    </div>
-    <div class="col-md-4 col-sm-12">
-      <a class="button-main text-center pull-right" href="#" data-toggle="modal" data-target="#newsletterModalBottom" role="button">Sign Up</a>
-    </div>
+  <div class="container">
+    <div class="row">
+  <div class="col-md-8 col-sm-12">
+    <h3>Sign up for Newsletter</h3>
   </div>
+  <div class="col-md-4 col-sm-12">
+    <a class="button-main text-center pull-right" href="#" data-toggle="modal" data-target="#newsletterModalBottom" role="button">Sign Up</a>
   </div>
+</div>
+</div>
 </section>
+
 <section class="footer">
 <div class="container">
   <div class="row footer-top">

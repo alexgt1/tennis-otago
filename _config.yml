@@ -9,3 +9,7 @@ collections:
     output: true
   posts:
     output: true
+  clubs:
+    output: true
+
+  source: src
