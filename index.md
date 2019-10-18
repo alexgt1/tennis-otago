@@ -1,5 +1,6 @@
 ---
 layout: index
+page_title: Welcome to Tennis Otago
 permalink: index
 ---
 

@@ -112,17 +112,11 @@ h1.heading {
 }
 
 .side-content {
-  border: 1px solid #999;
+  border: 1px solid #14315C;
   padding: 0px;
 }
 .side-content h3 {
   color: #000;
-}
-
-.club-logo {
-  height: 80px;
-  width: auto;
-  border-radius: 50%;
 }
 
 .club-links {
@@ -205,13 +199,28 @@ h1.heading {
 }
 
 .contact-right {
-  background-color: #F6FAFD;
-  margin: 0 auto;
   padding: 100px;
+  background-color: #F6FAFD;
+  border-left: 2px solid #e4ecf1;
+  margin: 0 auto;
+}
+.contact-right .form-control {
+  border: 2px solid #e4ecf1;
+}
+.contact-right label {
+  font-weight: 500;
+}
+.contact-right .form-top {
+  padding-bottom: 30px;
+}
+.contact-right .form-top .contact-icon {
+  height: 50px;
+  width: 50px;
 }
 
-.form-control {
-  background-color: #F6FAFD !important;
+.section-left {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 html, body {

@@ -1,0 +1,95 @@
+<section>
+        <div class="container">
+          <div class="row page-content">
+            <div class="col-md-8 index-main-content">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        
+        <div class="carousel-inner">
+          {% for post in site.posts limit:1 %}
+          <div class="carousel-item active">
+            <a href="{{ site.url }}{{ post.url }}">
+            <img src="{{ post.page_image }}" alt="...">
+            <div class="carousel-caption">
+              <h2>{{ post.page_title }}</h2>
+              <p>{{ post.page_description | truncate: 85 }}</p>
+            </div>
+          </a>
+          </div>
+          {% endfor %}
+        
+          {% for post in site.posts offset:1 limit:2 %}
+          <div class="carousel-item">
+            <a href="{{ site.url }}{{ post.url }}">
+            <img src="{{ post.page_image }}" alt="...">
+            <div class="carousel-caption">
+              <h2>{{ post.page_title }}</h2>
+              <p>{{ post.page_description | truncate: 85 }}</p>
+            </div>
+            </a>
+          </div>
+          {% endfor %}
+        
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        </div>
+        </div>
+        
+        <div class="col-md-4 side-content">
+          <!-- Nav pills -->
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item left-tab">
+              <a class="nav-link sidebar-link active" data-toggle="pill" href="#home">News</a>
+            </li>
+            <li class="nav-item right-tab">
+              <a class="nav-link sidebar-link" data-toggle="pill" href="#menu1">Events</a>
+            </li>
+          </ul>
+        
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div id="home" class="container tab-pane active fade-in"><br>
+              {% for post in site.posts limit:3 %}
+              <div class="row club-links">
+                <div class="col-md-12 col-sm-12">
+                  <a href="{{ site.url }}{{ post.url }}"><h5>{{ post.page_title }}</h5></a>
+                  <p>{{ post.page_description | truncate: 50 }}</p>
+                  <p class="date">{{ post.date | date_to_long_string }}</p>
+                  <span class="border-middle"></span>
+                </div>
+              </div>
+              {% endfor %}
+              <div class="row club-links">
+                <div class="col-md-12 col-sm-12">
+                    <a href="{{ site.url }}/news">View More</a>
+                </div>
+              </div>
+            </div>
+            <div id="menu1" class="container tab-pane fade-in"><br>
+              {% for post in site.posts limit:3 %}
+              <div class="row club-links">
+                <div class="col-md-12 col-sm-12">
+                    <a href="{{ site.url }}{{ post.url }}"><h5>{{ post.page_title }}</h5></a>
+                  <p>{{ post.page_description | truncate: 50 }}</p>
+                  <p class="date">{{ post.date | date_to_long_string }}</p>
+                  <span class="border-middle"></span>
+                </div>
+              </div>
+              {% endfor %}
+              <div class="row club-links">
+                <div class="col-md-12 col-sm-12">
+                  <a href="{{ site.url }}/news">View More</a>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+            </div>
+        </section>

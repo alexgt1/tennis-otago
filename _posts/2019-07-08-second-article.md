@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog-post
 page_title: Interclub Registrations Now Open!
 page_description: Entries are currently open for the second block of Tuesday Night Business House League
 page_image: img/ball.jpg

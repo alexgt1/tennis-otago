@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog-post
 page_title: Business House Term 2
 page_description: Entries are currently open for the second block of Tuesday Night Business House League
 page_image: img/poster.jpg

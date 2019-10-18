@@ -11,8 +11,3 @@ collections:
     output: true
   clubs:
     output: true
-
-  source: src
-
-  paginate: 5
-  paginate_path: "/news/page:num/"
